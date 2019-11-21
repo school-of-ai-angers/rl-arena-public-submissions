@@ -25,8 +25,8 @@ class QLearningPlayer:
         self.epsilon_decay = 0.99995
 
         # Q-table update hyperparameters
-        self.alpha = 0.1
-        self.gamma = 1
+        self.alpha = 0.85
+        self.gamma = 0.9
 
         # Q-table update helper variables
         self.prev_state = None
