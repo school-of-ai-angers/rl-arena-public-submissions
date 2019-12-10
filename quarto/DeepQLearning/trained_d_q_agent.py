@@ -1,4 +1,4 @@
-from .q_network import QNetwork
+from q_network import QNetwork
 import torch
 import numpy as np
 
